@@ -13,5 +13,5 @@ window.addEventListener("deviceorientation",(e)=>{
     X.textContent = Math.round(e.beta)
 
     console.log(`rotateZ(${Math.round(e.alpha)}deg) rotateY(${Math.round(e.gamma)}deg) rotateX(${Math.round(e.beta)}deg)`)
-    plane.style.transform = `rotateZ(${Math.round(e.alpha)}deg) rotateY(${Math.round(e.gamma)}deg) rotateX(${Math.round(e.beta)}deg)`;
+    plane.style.transform = `rotateZ(${Math.round(-e.alpha)}deg) rotateY(${Math.round(e.gamma)}deg) rotateX(${Math.round(e.beta)}deg)`;
 })
