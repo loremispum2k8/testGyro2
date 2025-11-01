@@ -16,7 +16,7 @@ html,body{
 
 .plane{
     border-radius: 2px;
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 100px;
     background-color: rgb(55, 105, 231);
 }
